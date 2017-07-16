@@ -16,6 +16,8 @@ obj/
 bin/
 packages/
 .tmp/
+.mdf
+.ldf 
 
 # OS or Editor folders
 .DS_Store
