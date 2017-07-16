@@ -20,7 +20,8 @@ namespace TestSolution.Web.Controllers
         // GET: Customers
         public ActionResult Index()
         {
-            return View(db.Customers.ToList());
+            //return View(db.Customers.ToList());
+            return View();
         }
 
         // GET: Customers/Details/5
