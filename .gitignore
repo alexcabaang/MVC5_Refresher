@@ -9,6 +9,9 @@
 *.vi
 *~
 *.sass-cache
+
+.Designer.cs
+.resx
 obj/
 bin/
 packages/
