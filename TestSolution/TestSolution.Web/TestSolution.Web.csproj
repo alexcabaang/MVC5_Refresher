@@ -229,6 +229,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SalesOrderController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -318,6 +319,7 @@
     <Folder Include="Api\" />
     <Folder Include="App_Data\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Views\SalesOrder\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

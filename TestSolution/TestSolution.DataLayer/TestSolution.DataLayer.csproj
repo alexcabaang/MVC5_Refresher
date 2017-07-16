@@ -53,6 +53,14 @@
     <Compile Include="Migrations\201707151736007_ModifiedCustomerAttribute.Designer.cs">
       <DependentUpon>201707151736007_ModifiedCustomerAttribute.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707160531051_CheckAndUpdateSalesOrder.cs" />
+    <Compile Include="Migrations\201707160531051_CheckAndUpdateSalesOrder.Designer.cs">
+      <DependentUpon>201707160531051_CheckAndUpdateSalesOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707160600468_Seeding Tables.cs" />
+    <Compile Include="Migrations\201707160600468_Seeding Tables.Designer.cs">
+      <DependentUpon>201707160600468_Seeding Tables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalesContext.cs" />
@@ -71,6 +79,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201707151736007_ModifiedCustomerAttribute.resx">
       <DependentUpon>201707151736007_ModifiedCustomerAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707160531051_CheckAndUpdateSalesOrder.resx">
+      <DependentUpon>201707160531051_CheckAndUpdateSalesOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707160600468_Seeding Tables.resx">
+      <DependentUpon>201707160600468_Seeding Tables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

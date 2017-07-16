@@ -9,6 +9,7 @@ namespace TestSolution.DataLayer
         {
             Property(so => so.CustomerName).HasMaxLength(100).IsRequired();
             Property(so => so.PoNumber).HasMaxLength(10).IsOptional();
+            Property(so => so.OrderDate).IsRequired();
         }
     }
 }
