@@ -1,0 +1,16 @@
+﻿@model TestSolution.Model.Customer
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer</h2>
+@Html.HiddenFor(model => model.Id)
+
+@Model.Name
+
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
