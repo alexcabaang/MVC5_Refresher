@@ -9,7 +9,7 @@ using TestSolution.Model;
 
 namespace TestSolution.Web.Controllers.Api
 {
-    [Authorize]
+    //[Authorize]
     public class CustomersController : ApiController
     {
         private readonly SalesContext db;

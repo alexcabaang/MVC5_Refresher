@@ -7,7 +7,7 @@ using TestSolution.Model;
 
 namespace TestSolution.Web.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class SalesOrderController : Controller
     {
         private readonly SalesContext db;
